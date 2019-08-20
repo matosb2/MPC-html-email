@@ -6,6 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MPC Email</title>
     <style type="text/css">
+
+        table {
+            border-spacing: 0;
+            width: 100%;
+            /* line-height: 100%; */
+        }
+
+        .wrapper {
+                background-color: #efefef;
+                padding: 20px;
+        }
+
+        .wrapper-inner {
+            background-color: #F5F4F4;
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            padding: 0 20px 0 20px;
+        }
+
+        .header p {
+            font-family: Helvetica,Arial,sans-serif;
+            font-size: 12px;
+            margin: 10px 0px;
+        }
+
+        .company {
+            background-color: white;
+        }
+
+        .company td {
+            padding: 15px 0;
+        }
+
         @media screen and (max-width: 400px) {}
 
         @media screen and (min-width: 401px) and (max-width: 400px) {}
@@ -16,23 +52,36 @@
 <body>
     <div class="wrapper">
         <div class="wrapper-inner">
-            <table class="header-table">
-                <tr>
-                    <td class="header">
-                        <p><a href="#">Click to view this email in your browser</a></p>
-                    </td>
-                </tr>
-            </table> <!-- End of Header Table-->
-
-            <table>
+            <table width="100%" cellpadding="0">
                 <tr>
                     <td>
-                        <a href="https://www.hendersonharbor.com">
-                            <img src="images/HHS_Logo.jpg" alt="Logo">
-                        </a>
+                        <table width="100%">
+                            <tr>
+                                <td class="header">
+                                    <table>
+                                        <tr>
+                                            <td align="right" valign="top">
+                                                <p>Click to view this email in your <span><a href="#">browser</a></span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table> <!-- End of Header Table-->
+
+                        <table class="company">
+                            <tr>
+                                <td>
+                                    <a href="https://www.hendersonharbor.com">
+                                        <img src="images/HHS_Logo.jpg" alt="Logo">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table> <!-- End of Company Table-->
                     </td>
                 </tr>
-            </table> <!-- End of Company Table-->
+            </table> <!-- End of Header/Company Logo Table-->
 
             <table>
                 <tr>
