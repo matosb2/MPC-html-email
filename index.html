@@ -10,7 +10,8 @@
         table {
             border-spacing: 0;
             width: 100%;
-            /* line-height: 100%; */
+            font-family: Helvetica,Arial,sans-serif;
+            line-height: 1.5;
         }
 
         .wrapper {
@@ -29,7 +30,6 @@
         }
 
         .header p {
-            font-family: Helvetica,Arial,sans-serif;
             font-size: 12px;
             margin: 10px 0px;
         }
@@ -40,6 +40,15 @@
 
         .company img {
             padding: 15px 20px 15px 20px;
+        }
+
+        .candidate-table {
+            font-size: 16px;
+            color: #382e2c;
+        }
+
+        .position {
+            color: #b40041;
         }
 
         @media screen and (max-width: 400px) {}
@@ -73,7 +82,7 @@
                         <table class="company">
                             <tr>
                                 <td align="middle" valign="top">
-                                    <a href="https://www.hendersonharbor.com">
+                                    <a href="#">
                                         <img src="images/HHG Logo.jpg" alt="Logo">
                                     </a>
                                 </td>
@@ -92,39 +101,43 @@
                     </td>
                 </tr>
             </table> <!-- End of Jumbo Picture Table-->
-
-            <table>
+            <table class="candidate-table">
                 <tr>
                     <td>
-                        <p>Good Afternoon,
-                        <br>Below you will find this month's Grade A talent!
-                        </p>
-                    </td>
-                </tr>
-            </table> <!-- End of Intro Table-->
+                        <table>
+                            <tr>
+                                <td align="middle" valign="top">
+                                    <p>Good Afternoon,
+                                    <br>Below you will find this month's Grade A talent!
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
 
-            <hr>
+                        <hr>
 
-            <table>
-                <tr>
-                    <td>
-                        <p>Accounting Manager</p>
-                        <p>Location: Pine Brook, NJ</p>
-                        <p>Support the development and implementation of strategic sales plans to accommodate corporate
-                            goals. Weekly written reports of overall program and progress. Supports the expansion of
-                            high-end machine s...</p>
-                        <p><a href="#">View Profile</a></p> <!-- Button-->
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="position">Accounting Manager</p>
+                                    <p><strong>Location: </strong>Pine Brook, NJ</p>
+                                    <p>Support the development and implementation of strategic sales plans to accommodate corporate
+                                        goals. Weekly written reports of overall program and progress. Supports the expansion of
+                                        high-end machine s...</p>
+                                    <p><a href="#">View Profile</a></p> <!-- Button-->
 
-                        <p>Accounting Manager</p>
-                        <p>Location: Pine Brook, NJ</p>
-                        <p>Support the development and implementation of strategic sales plans to accommodate corporate
-                            goals. Weekly written reports of overall program and progress. Supports the expansion of
-                            high-end machine s...</p>
-                        <p><a href="#">View Profile</a></p> <!-- Button-->
+                                    <p class="position">Accounting Manager</p>
+                                    <p><strong>Location: </strong>Pine Brook, NJ</p>
+                                    <p>Support the development and implementation of strategic sales plans to accommodate corporate
+                                        goals. Weekly written reports of overall program and progress. Supports the expansion of
+                                        high-end machine s...</p>
+                                    <p><a href="#">View Profile</a></p> <!-- Button-->
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table> <!-- End of Candidate Table-->
-
             <table>
                 <tr>
                     <td>
