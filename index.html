@@ -21,12 +21,14 @@
 
         .wrapper-inner {
             background-color: white;
-            width: 600px;
+            width: 100%;
+            max-width: 600px;
             margin: 0 auto;
         }
 
         .header {
             padding: 0 20px 0 20px;
+            width: 100%;
         }
 
         .header p {
@@ -38,7 +40,7 @@
             background-color: white;
         }
 
-        .company img {
+        .company td {
             padding: 15px 20px 15px 20px;
         }
 
@@ -70,6 +72,11 @@
             padding: 10px 22px;
             border-radius: 3px;
             color: #9F1C35;
+        }
+
+        .img-options {
+            max-width: 600px;
+            width: 100%;
         }
 
         .interview {
@@ -131,10 +138,10 @@
 <body>
     <div class="wrapper">
         <div class="wrapper-inner">
-            <table width="100%" cellpadding="0">
+            <table cellpadding="0">
                 <tr>
                     <td>
-                        <table width="100%" class="interview">
+                        <table class="interview">
                             <tr>
                                 <td class="header">
                                     <table>
@@ -153,7 +160,7 @@
                             <tr>
                                 <td align="middle" valign="top">
                                     <a href="#">
-                                        <img src="images/HHG Logo.jpg" alt="Logo">
+                                        <img src="images/HHG Logo.jpg" alt="Logo" class="img-options">
                                     </a>
                                 </td>
                             </tr>
@@ -166,7 +173,7 @@
                 <tr>
                     <td>
                         <a href="#">
-                            <img src="images/Suit.jpg" alt="Suit">
+                            <img src="images/Suit.jpg" alt="Suit" class="img-options">
                         </a>
                     </td>
                 </tr>
