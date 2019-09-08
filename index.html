@@ -128,11 +128,24 @@
             line-height: 1.85;
         }
 
-        @media screen and (max-width: 400px) {}
+        @media screen and (max-width: 400px) {
 
-        @media screen and (min-width: 401px) and (max-width: 400px) {}
+            .socialIcons {
+                width: 35px !important;
+            }
+        }
 
-        @media screen and (max-width: 768px) {}
+        @media screen and (max-width: 768px) {
+
+            .two-column {
+                float: none !important;
+                width: 100%;
+            }
+
+            .two-column .img-options {
+                max-width: 255px !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -232,22 +245,22 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div class="two-column" style="width: 50%!important;">
+                                    <div class="two-column">
                                         <table>
                                             <tr>
                                                 <td class="market-info">
-                                                    <img src="images/Interview.jpg" alt="Interview">
+                                                    <img src="images/Interview.jpg" alt="Interview" class="img-options">
                                                 </td>
                                             </tr>
                                         </table>
                                     </div>
 
-                                    <div class="two-column" style="width: 50%!important;">
+                                    <div class="two-column">
                                         <table>
                                             <tr>
                                                 <td class="market-info">
-                                                    <p class="h3">Insider Market Info</p>
-                                                    <p class="h3-par">Check out our blog for tips on the current Market and how this can affect you and your organization</p>
+                                                    <p class="h3 h2">Insider Market Info</p>
+                                                    <p class="h3-par h2-par">Check out our blog for tips on the current Market and how this can affect you and your organization</p>
                                                     <p><a class="profile-button" href="#">VISIT THE BLOG >></a></p>
                                                 </td>
                                             </tr>
