@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MPC Email</title>
-    <style type="text/css">
+    <style>
 
         table {
             border-spacing: 0;
@@ -53,6 +53,14 @@
             color: #b40041;
             font-size: 18px;
             margin: 0 0 10px 0;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .middle {
+            text-align: center;
         }
 
         .job-post {
@@ -121,6 +129,7 @@
             font-size: 16px;
             color: #cfcfcf;
             font-weight: bold;
+            text-align: center;
         }
 
         .footer {
@@ -132,6 +141,10 @@
 
             .socialIcons {
                 width: 35px !important;
+            }
+
+            .footer {
+                text-align: center;
             }
         }
 
@@ -151,15 +164,15 @@
 <body>
     <div class="wrapper">
         <div class="wrapper-inner">
-            <table cellpadding="0">
+            <table>
                 <tr>
-                    <td>
+                    <td style="padding: 0;">
                         <table class="interview">
                             <tr>
                                 <td class="header">
                                     <table>
                                         <tr>
-                                            <td align="right" valign="top">
+                                            <td class="right">
                                                 <p>Click to view this email in your <span><a href="#">browser</a></span>
                                                 </p>
                                             </td>
@@ -171,9 +184,9 @@
 
                         <table class="company">
                             <tr>
-                                <td align="middle" valign="top">
+                                <td>
                                     <a href="#">
-                                        <img src="images/HHG Logo.jpg" alt="Logo" class="img-options">
+                                        <img src="images/HHG-Logo.jpg" alt="Logo" class="img-options">
                                     </a>
                                 </td>
                             </tr>
@@ -196,7 +209,7 @@
                     <td>
                         <table>
                             <tr>
-                                <td align="middle" valign="top">
+                                <td class="middle">
                                     <p>Good Afternoon,
                                     <br>Below you will find this month's Grade A talent!
                                     </p>
@@ -241,7 +254,7 @@
             </table> <!-- End of Candidate Table-->
             <table>
                 <tr>
-                    <td align="middle" valign="top" class="row interview">
+                    <td class="row interview">
                         <table>
                             <tr>
                                 <td>
@@ -278,10 +291,10 @@
                     <td style="padding: 20px 0 10px 0; background-color: #efefef;">
                         <table>
                             <tr>
-                                <td width="30%" align="right">
+                                <td style="width: 30%;" class="right">
                                     <p><strong>Follow us:</strong></p>
                                 </td>
-                                <td width="70%" align="left" style="padding: 8px 0 0 10px;">
+                                <td style="padding: 8px 0 0 10px; width: 70%;">
                                     <!-- <span> -->
                                         <a href="#" class="social">
                                             <img src="images/twitter.png" alt="twitter" class="socialIcons">
@@ -308,7 +321,7 @@
 
             <table>
                 <tr>
-                    <td align="middle" class="slogan">
+                    <td class="slogan">
                         <p>it's time we all work happy. &reg;</p>
                     </td>
                 </tr>
@@ -316,7 +329,7 @@
 
             <table>
                 <tr>
-                    <td align="left">
+                    <td>
                         <p class="footer">
                             &copy; 2019 Henderson Harbor. An Equal Opportunity Employer M / F / Disability / Veterans.
                             <br>
